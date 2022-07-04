@@ -76,10 +76,10 @@
         transform: scale(1);
     }
     10% {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
     20% {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
     30% {
         transform: scale(1);
@@ -135,6 +135,24 @@
             margin-right: 32px;
         }
     }
+
+    @keyframes changeContactsCard {
+        0% {
+            transform: scale(1);
+        }
+        10% {
+            transform: scale(1.1);
+        }
+        20% {
+            transform: scale(1.1);
+        }
+        30% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1);
+        }
+      }
 }
     
 @include breakpointFrom(desktop) {
